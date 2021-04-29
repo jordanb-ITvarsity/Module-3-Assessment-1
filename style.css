@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background-01-port.png');
+
+    /* STOP THE IMAGE FROM REPEATING  */
+    background-position: center;
+
+    /* MAKES BACKGROUND STAY STILL AND NOT MOVE */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    /* MAKES BKG MOVE WITH SIZE OF SCREEN AND STOPS WHITE SPACES */
+    background-size: cover;
+}
+
+/* ============= HOME PAGE =============== */
+
+#home-logo-img {
+    width: 50px;
+    display: block;
+
+    /* ALLOWS IMAGE TO ALWAYS BE IN THE CENTER */
+    margin: auto;
+
+    /* TOP RIGHT BOTTOM LEFT */
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/* ========HOME PAGE MENU =============== */
+
+.home-menu-item{
+    text-decoration: none;
+
+    /* MAKES ALL ITEMS UPPERCASE */
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    /* GIVES TAG A PROPER BOARDER */
+    /* ALLOWS STYLE TO WORK WELL WITH TAG */
+    display: block;
+
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/* ======== =============== */
