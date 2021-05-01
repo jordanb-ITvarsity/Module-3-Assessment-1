@@ -67,4 +67,69 @@ body{
 }
 
 
-/* ======== =============== */
+/* ======== MEALS PAGE =============== */
+
+#meals{
+    padding-top: 60px;
+}
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+    padding-top: 19px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.body-meals{
+    background-image: url('images/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ======== HEADER =============== */
+
+.header{
+    background-color: #2196f3;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 11px;
+}
